@@ -22,8 +22,8 @@ Feel free to ask anything!`,
     setLoading(true);
 
     try {
-      const response = await axios.post("http://127.0.0.1:8001/query", {
-        user_id: "user_50",
+      const response = await axios.post(import.meta.env.VITE_API_URL+"/query", {
+        user_id: "user_100",
         query: text,
       });
 

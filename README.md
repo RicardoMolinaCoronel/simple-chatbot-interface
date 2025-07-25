@@ -28,7 +28,7 @@ npm install
 VITE_API_URL=http://127.0.0.1:8001
 ```
 
-### 4.- Run the application
+### 4.- Run the application in dev mode
 ```bash
 npm run dev
 ```

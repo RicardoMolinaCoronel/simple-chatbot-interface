@@ -23,7 +23,7 @@ Feel free to ask anything!`,
 
     try {
       const response = await axios.post("http://127.0.0.1:8001/query", {
-        user_id: "user_20",
+        user_id: "user_50",
         query: text,
       });
 

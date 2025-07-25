@@ -1,0 +1,39 @@
+.userContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.assistantContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.userMessage {
+  background-color: #3b82f6; /* Azul del usuario */
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.assistantMessage {
+  background-color: #fafafaec; /* Gris clarito del agente */
+  color: black;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.typingMessage {
+  background-color: #d1d5db;
+  color: #374151;
+  font-style: italic;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  max-width: 80%;
+  word-break: break-word;
+}
